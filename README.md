@@ -152,23 +152,7 @@ To avoid AWS charges, destroy all resources:
     kubectl delete svc trend-app-service -n default
     kubectl delete svc monitoring-grafana -n monitoring
 
-##  Screenshots
 
-All screenshots are included in the submission document:
-- Docker build + local run
-- DockerHub repository
-- GitHub repository
-- Terraform apply outputs
-- AWS VPC console
-- AWS EC2 (Jenkins) console
-- AWS EKS cluster console
-- Kubernetes pods + services
-- Application running on LoadBalancer URL
-- Jenkins pipeline successful build
-- Jenkins credentials
-- GitHub webhook delivery
-- Grafana dashboards (Kubernetes / Proxy, Compute Resources)
-- Prometheus targets
 
 ##  Author
 
