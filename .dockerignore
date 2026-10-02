@@ -1,0 +1,3 @@
+echo .git > .dockerignore
+echo README.md >> .dockerignore
+echo node_modules >> .dockerignore
